@@ -1,0 +1,15 @@
+ontology_name: "Domain Atomistic"
+ontology_adjective: "electrochemical"
+ontology_noun: "atomistic"
+ontology_abbreviation: "ATOM"
+ontology_uri: "https://w3id.org/emmo/domain/atomistic"
+ontology_prefix: "https://w3id.org/emmo/domain/atomistic#"
+ontology_description: "The ontology for atomistic systems."
+
+ttl_files:
+  - section_title: "Main Ontology"
+    path: "atomistic.ttl"
+
+output:
+  inferred_ttl: "atomistic-inferred.ttl"
+  rst_file: "docs/atomistic.rst"
